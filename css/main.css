@@ -65,7 +65,7 @@ h1 {
 }
 @media only screen and (min-width: 1200px) {
   h1 {
-    font-size: 125px;
+    font-size: 100px;
   }
 }
 h2 {
@@ -261,7 +261,7 @@ ul {
 }
 @media only screen and (min-width: 992px) {
   .presentation {
-    padding: 270px 0 20px;
+    padding: 200px 0 20px;
   }
 }
 .presentation .img {
@@ -673,7 +673,7 @@ header.active {
   margin-left: auto;
   width: 235px;
   border: 2px solid #ffb100;
-
+  text-align: center;
   color: #ffb100;
   font-weight: 500;
   letter-spacing: 1px;
@@ -828,4 +828,11 @@ footer .col-right {
 .input-holder.active .btn-form {
   width: 100%;
   background-color: #ffb100;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto !important;
 }
