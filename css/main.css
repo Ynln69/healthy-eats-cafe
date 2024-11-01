@@ -657,15 +657,19 @@ header.active {
   top: 50%;
 }
 .btn {
+  display: block;
   padding: 15px 31px;
   border-radius: 10px;
-  display: inline-block;
+  margin-right: auto; 
+  margin-left: auto; 
+  width: 235px;
+  border: 2px solid #ffb100;
+
   color: #ffb100;
   font-weight: 500;
-  transition: all 0.3s;
   letter-spacing: 1px;
-  border: 2px solid #ffb100;
   line-height: 1;
+  transition: all 0.3s;
 }
 @media only screen and (min-width: 992px) {
   .btn {

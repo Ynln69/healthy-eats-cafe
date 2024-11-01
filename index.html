@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <title>Healthy Eats Café</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Healthy Eats Café offers fresh, wholesome, and delicious meals crafted with the finest ingredients. Enjoy nutritious food that supports a healthy lifestyle."
+    />
+    <meta
+      name="keywords"
+      content="healthy café, nutritious meals, wholesome food, healthy lifestyle, fresh ingredients, vegan options, gluten-free, organic café, Healthy Eats"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,11 +26,16 @@
     />
     <link href="./css/main.css" rel="stylesheet" />
   </head>
+
   <body>
     <header class="header">
       <div class="container d-md-flex justify-between-md">
         <a href="./" class="logo">
-          <img src="/images/food-safety.png" alt="Healthy Eats Café Logo" width="100"/>
+          <img
+            src="/images/food-safety.png"
+            alt="Healthy Eats Café Logo"
+            width="100"
+          />
         </a>
         <nav class="nav d-flex">
           <ul class="links">
@@ -32,7 +45,7 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <a href="./" class="link-connect">Contact Us</a>
+        <a href="./contacts-page.html" class="link-connect">Contact Us</a>
         <button class="js-menu-btn d-md-none menu-btn">
           <span class="icon-bar"></span> <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -50,7 +63,6 @@
                 freshest ingredients. Every dish is made to support a healthy,
                 vibrant lifestyle.
               </p>
-              <a href="./" class="btn">Order Now</a>
               <div class="block-blur">
                 <div class="title">Your Perfect Meal</div>
                 <div class="text">
@@ -68,7 +80,7 @@
                 Fresh greens, lean protein, and unique dressings – a nutritious
                 delight for any meal.
               </div>
-              <a href="./" class="btn">Order Now</a>
+              <a href="#product" class="btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -87,7 +99,6 @@
                 nutrient-dense grain bowls to refreshing smoothie bowls.
                 Discover dishes that complement your health goals!
               </div>
-              <a href="./" class="btn">Order Now</a>
             </div>
           </div>
           <div class="block-blur columns reverse">
@@ -100,7 +111,7 @@
                 A flavorful, plant-based dish packed with vitamins, minerals,
                 and protein – perfect for a balanced diet.
               </div>
-              <a href="./" class="btn">Order Now</a>
+              <a href="./contacts-page.html" class="btn">Learn More</a>
             </div>
           </div>
         </div>
@@ -108,8 +119,8 @@
       <section class="product" id="product">
         <div class="container">
           <h3 class="decoration">Our Popular Dishes</h3>
-          <div class="row">
-            <div class="item">
+          <ul class="row">
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img src="/images/avocado-toast.webp" alt="avocado toast" />
@@ -119,10 +130,9 @@
                   Fresh avocado on whole-grain toast, topped with a sprinkle of
                   seeds for extra crunch and nutrition.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img src="/images/quinoa-bowl.webp" alt="quinoa bowl" />
@@ -132,10 +142,9 @@
                   A protein-rich salad with quinoa, fresh veggies, and a light,
                   tangy dressing to brighten your day.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img src="/images/fruit-bowl.webp" alt="fruit bowl" />
@@ -145,12 +154,11 @@
                   A colorful bowl of seasonal fruits with creamy yogurt – a
                   refreshing choice for any time of the day.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="item">
+            </li>
+          </ul>
+          <ul class="row">
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img
@@ -163,10 +171,9 @@
                   A selection of seasonal vegetables, lightly grilled to bring
                   out their natural flavors.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img src="/images/green-smoothie.webp" alt="green smoothie" />
@@ -176,10 +183,9 @@
                   A refreshing blend of leafy greens, fruits, and superfoods to
                   energize your day.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-            <div class="item">
+            </li>
+            <li class="item">
               <div class="block-blur">
                 <div class="img-holder">
                   <img src="/images/oatmeal-bowl.webp" alt="oatmeal bowl" />
@@ -189,10 +195,15 @@
                   Warm oats topped with fruits, nuts, and a hint of honey – a
                   comforting start to your morning.
                 </div>
-                <a href="./" class="btn">Order Now</a>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
+          <a
+            href="./contacts-page.html"
+            class="btn"
+            style=" margin-bottom: 70px;"
+            >Learn More</a
+          >
         </div>
       </section>
       <section id="contact">
@@ -209,7 +220,7 @@
               <div class="text">
                 <a href="mailto:info@domain.com">info@domain.com</a>
               </div>
-              <a href="./" class="btn">Order Now</a>
+              <a href="./contacts-page.html" class="btn">Learn More</a>
             </div>
           </div>
         </div>
