@@ -475,6 +475,15 @@ ul {
   margin-right: auto;
   text-align: center;
 }
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
 .contact .box {
   width: 100% !important;
 }
@@ -660,8 +669,8 @@ header.active {
   display: block;
   padding: 15px 31px;
   border-radius: 10px;
-  margin-right: auto; 
-  margin-left: auto; 
+  margin-right: auto;
+  margin-left: auto;
   width: 235px;
   border: 2px solid #ffb100;
 
